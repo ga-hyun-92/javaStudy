@@ -37,6 +37,16 @@ public class Ex2 {
 		System.out.println("커피가격:"+1500);
 		System.out.println("철수의 Java 과목 학점:"+'A');
 		
+//		변수 선언 실습
+		char value;
+		value=1;
+		
+		int num;
+		
+		double data;
+		
+		boolean val1;
+		
 	}
 
 }
