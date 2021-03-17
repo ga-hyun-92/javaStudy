@@ -39,7 +39,6 @@ public class Ex2 {
 		
 //		변수 선언 실습
 		char value;
-		value=1;
 		
 		int num;
 		
