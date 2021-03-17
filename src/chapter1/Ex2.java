@@ -3,7 +3,7 @@ package chapter1;
 public class Ex2 {
 
 	public static void main(String[] args) {
-		//문자열-문자들의 나열
+		//문자열-문자들의 나열ㄴ
 		//문자열은 꼭 ""를 사용해서 표현해야함
 //		System.out.println("Hello World");
 //		System.out.println("Hello");
