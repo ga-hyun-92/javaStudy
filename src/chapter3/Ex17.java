@@ -41,11 +41,11 @@ public class Ex17 {
 		System.out.print("2.줄 수를 입력하세요: ");
 		int row=scanf.nextInt();
 		
-		for (int i = row; i <= 1; i--) {
+		for (int i = 0; i < row; i--) {
 			for (int j = 0; j <= i; j++) {
-				System.out.println(" ");
+				System.out.print(" ");
 			}
-			for (int j = 1; j <= i; j++) {
+			for (int j = i; j < row; j++) {
 				System.out.print("*");
 				
 			}//end for i

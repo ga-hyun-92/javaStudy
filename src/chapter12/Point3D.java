@@ -7,17 +7,28 @@ public class Point3D extends Point{
 	public int getZ() {
 		return z;
 	}
-	
-	
-//오버라이딩: 부모클래스에 정의되어 있는 메서드를 자식 클래스에서 재정의하는 것
 
+	//오버라이딩: 부모클래스에 정의되어 있는 메서드를 자식 클래스에서 재정의하는 것
+	//Source - Override/implement Methods
+	@Override//annotation주석
 	public String getLocation() {
-		//3차원의 한 점의 좌표를 문자열로 반환
-		int x=getX();
-		int y=getY();
-		
-		return "x:"+x+", y: "+y+", z: "+z; 
-		}
+//		return super.getLocation()+", z: "+z;
+		return  getLocation()+", z: "+z;
+		//super는 '부모의'라는 의미
+		//thisl와 마찬가지로 super붙이지 않고 메서드 호출
+	}
+	
+//	public String getLocation() {
+//		//3차원의 한 점의 좌표를 문자열로 반환
+//		int x=getX();
+//		int y=getY();
+//		
+//		return "x:"+x+", y: "+y+", z: "+z; 
+//		}
+	
+	public String get3DLocation() {
+		return  getLocation()+", z: "+z;
+	}
 }
 
 //오버로딩(상속과 전혀 관계 없음): 한 클래스 내 동일한 이름을 사용하면서 매개변수가 서로 다른 메서드
